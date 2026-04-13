@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas e Notas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>💰 Conversor de Notas e Moedas</h1>
+            <p class="subtitle">Decompõe valores monetários em notas e moedas</p>
+        </header>
+
+        <main class="main-content">
+            <section class="input-section">
+                <div class="form-group">
+                    <label for="valor">Digite o valor monetário:</label>
+                    <div class="input-wrapper">
+                        <span class="currency">R$</span>
+                        <input 
+                            type="number" 
+                            id="valor" 
+                            placeholder="0.00" 
+                            step="0.01" 
+                            min="0" 
+                            max="1000000.00"
+                            value="576.73"
+                        >
+                    </div>
+                    <small class="help-text">Valor entre 0.00 e 1.000.000,00</small>
+                </div>
+
+                <button class="btn-calcular" id="btnCalcular">Calcular Decomposição</button>
+            </section>
+
+            <section class="results-section" id="resultadosSection" style="display: none;">
+                <div class="results-value">
+                    <p>Valor inserido: <strong id="valorExibicao">R$ 0.00</strong></p>
+                </div>
+
+                <div class="results-container">
+                    <div class="result-card">
+                        <h2>📄 NOTAS</h2>
+                        <div class="result-table" id="tabelaNotas">
+                            <!-- Preenchido pelo JavaScript -->
+                        </div>
+                    </div>
+
+                    <div class="result-card">
+                        <h2>🪙 MOEDAS</h2>
+                        <div class="result-table" id="tabelaMoedas">
+                            <!-- Preenchido pelo JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-novo" id="btnNovo">Calcular Outro Valor</button>
+            </section>
+
+            <section class="info-section">
+                <h3>ℹ️ Informações</h3>
+                <ul>
+                    <li><strong>Notas:</strong> R$ 100, 50, 20, 10, 5, 2</li>
+                    <li><strong>Moedas:</strong> R$ 1, 0.50, 0.25, 0.10, 0.05, 0.01</li>
+                    <li><strong>Método:</strong> Algoritmo guloso (greedy) para mínima quantidade</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 - Atividade de Programação para Web I</p>
+        </footer>
+    </div>
+
+    <!-- Carregamento dos módulos em ordem de dependência -->
+    <script src="../js/config.js"></script>
+    <script src="../js/converter.js"></script>
+    <script src="../js/validator.js"></script>
+    <script src="../js/resultado.js"></script>
+    <script src="../js/decomposer.js"></script>
+    <script src="../js/renderer.js"></script>
+    <script src="../js/controller.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

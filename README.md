@@ -9,6 +9,8 @@
 
 **Aplicação web profissional para decomposição de valores monetários usando POO e Clean Architecture**
 
+🌐 **[Acessar a Aplicação Live no Vercel](https://currency-converter-eta-vert.vercel.app)**
+
 [🚀 Começar](#-como-usar) • [📖 Documentação](#-documentação-completa) • [🏗️ Arquitetura](#-arquitetura) • [💡 Exemplos](#-exemplos)
 
 </div>

@@ -137,14 +137,14 @@ projeto-notas-moedas/
 
 ### 📚 3 Arquivos de Documentação
 
-#### 1️⃣ [📖 DOCUMENTACAO.md](DOCUMENTACAO.md)
+#### 1️⃣ [📖 DOCUMENTACAO.md](https://github.com/Nilson-Rodrigo/currency-converter/blob/main/DOCUMENTACAO.md)
 **Explicação linha por linha de cada módulo**
 - Análise detalhada do HTML, CSS e JavaScript
 - Fluxo de execução completo
 - Exemplos práticos
 - ⏱️ Leitura: ~30 minutos
 
-#### 2️⃣ [🏗️ ARQUITETURA_POO.md](ARQUITETURA_POO.md)
+#### 2️⃣ [🏗️ ARQUITETURA_POO.md](https://github.com/Nilson-Rodrigo/currency-converter/blob/main/ARQUITETURA_POO.md)
 **POO e Clean Architecture explicados**
 - Estrutura modular (8 classes)
 - Princípios SOLID
@@ -152,7 +152,7 @@ projeto-notas-moedas/
 - Como adicionar features
 - ⏱️ Leitura: ~20 minutos
 
-#### 3️⃣ [🔌 COMUNICACAO_HTML_JS.md](COMUNICACAO_HTML_JS.md)
+#### 3️⃣ [🔌 COMUNICACAO_HTML_JS.md](https://github.com/Nilson-Rodrigo/currency-converter/blob/main/COMUNICACAO_HTML_JS.md)
 **Como JavaScript conversa com HTML**
 - Mapeamento de IDs e elementos
 - Event listeners

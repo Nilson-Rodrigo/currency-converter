@@ -618,7 +618,7 @@ MoneyDecomposer.decomporValor(-50);
 **Documentação Completa!** 📚
 
 Por mais dúvidas, consulte os outros arquivos:
-- [ARQUITETURA_POO.md](ARQUITETURA_POO.md)
-- [COMUNICACAO_HTML_JS.md](COMUNICACAO_HTML_JS.md)
+- [ARQUITETURA_POO.md](https://github.com/Nilson-Rodrigo/currency-converter/blob/main/ARQUITETURA_POO.md)
+- [COMUNICACAO_HTML_JS.md](https://github.com/Nilson-Rodrigo/currency-converter/blob/main/COMUNICACAO_HTML_JS.md)
 
 </div>

@@ -183,12 +183,54 @@ projeto-notas-moedas/
 
 ### 4 Arquivos de Documentação Inclusos
 
-| Arquivo | Conteúdo | Leitura |
-|---------|----------|--------|
-| **DOCUMENTACAO.md** | Explicação detalhada de cada módulo linha por linha | 30 min |
-| **ARQUITETURA_POO.md** | Estrutura modular, princípios SOLID, diagrama | 20 min |
-| **COMUNICACAO_HTML_JS.md** | Como JS comunica com HTML via DOM e eventos | 15 min |
-| **README.md** | Este guia de início rápido | 5 min |
+### 📚 Documentação Completa
+
+#### 1️⃣ [📖 DOCUMENTACAO.md](DOCUMENTACAO.md)
+**Explicação linha por linha de cada módulo**
+- Análise detalhada do HTML
+- Análise detalhada do CSS  
+- Análise detalhada do JavaScript
+- Fluxo de execução completo
+- Exemplos práticos
+
+⏱️ Leitura: ~30 minutos
+
+---
+
+#### 2️⃣ [🏗️ ARQUITETURA_POO.md](ARQUITETURA_POO.md)
+**Conceitos de POO e Clean Architecture**
+- Estrutura modular (8 classes)
+- Princípios SOLID aplicados
+- Dependências entre módulos
+- Vantagens da arquitetura
+- Como adicionar novas features
+
+⏱️ Leitura: ~20 minutos
+
+---
+
+#### 3️⃣ [🔌 COMUNICACAO_HTML_JS.md](COMUNICACAO_HTML_JS.md)
+**Como JavaScript conversa com HTML**
+- Mapeamento de IDs e elementos
+- Event listeners explicados
+- Fluxo de dados (input → processamento → output)
+- Tabela de quem acessa o quê
+- Exemplos práticos de DOM manipulation
+
+⏱️ Leitura: ~15 minutos
+
+---
+
+### 🎓 Ordem Recomendada de Leitura
+
+```
+1. Este README (saiba o que faz) → 5 min
+2. COMUNICACAO_HTML_JS.md (entenda o fluxo) → 15 min
+3. ARQUITETURA_POO.md (entenda a estrutura) → 20 min
+4. DOCUMENTACAO.md (aprofunde nos detalhes) → 30 min
+```
+
+**Total: ~70 minutos para compreensão completa**
 
 ---
 
@@ -456,12 +498,14 @@ Este projeto é fornecido como material **educacional** para atividade acadêmic
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Sobre o Projeto
 
 **Desenvolvido:** 2026  
-**Disciplina:** Lógica Matemática  
-**Tipo:** Exercício Acadêmico  
-**Nível:** ⭐⭐⭐⭐⭐ (Profissional)
+**Disciplina:** Programação para Web I  
+**Tipo:** Atividade Acadêmica  
+**Nível:** ⭐⭐⭐⭐⭐ (Profissional)  
+**Linguagens:** HTML5 • CSS3 • JavaScript ES6+  
+**Padrão:** POO + Clean Architecture
 
 ---
 
